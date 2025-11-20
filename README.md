@@ -2,11 +2,11 @@ Web Scraper to Markdown
 A fast async web scraper that discovers URLs from HTML elements and converts pages to clean Markdown.
 
 Installation
-bash# Install uv (if you don't have it)
-curl -LsSf https://astral.sh/uv/install.sh | sh
+Install uv (if you don't have it)
+`curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 # Install dependencies
-uv sync
+`uv sync`
 
 # Install Chromium browser
 uv run playwright install chromium
