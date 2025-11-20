@@ -34,7 +34,9 @@ Files saved in: output/threejs-docs/
 URL list saved in: config/threejs-docs_urls.txt
 
 
-Each file is a Markdown document with metadata:
+
+## Each file is a Markdown document with metadata:
+```
 markdown---
 url: https://threejs.org/docs/#manual/en/introduction/Creating-a-scene
 scraped_at: 2024-01-15 10:30:45
@@ -43,3 +45,4 @@ scraped_at: 2024-01-15 10:30:45
 # Creating a Scene
 
 Your content here in clean Markdown...
+```
