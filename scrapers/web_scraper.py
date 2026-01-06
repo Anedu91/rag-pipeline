@@ -1,6 +1,4 @@
 import asyncio
-from dis import disco
-from socket import timeout
 
 from playwright.async_api import Page, async_playwright
 
