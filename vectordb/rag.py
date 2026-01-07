@@ -194,9 +194,7 @@ def create_ollama_provider(config: RAGConfig) -> LLMProvider:
 
             messages.append({"role": "user", "content": prompt})
 
-            ,l.
-            J = ollama.chat(
-           J = ollama.chat(
+            response = ollama.chat(
                 model=config.model,
                 messages=messages,
                 options={
@@ -387,6 +385,7 @@ def generate_answer(
         (answer, tokens_used)
     """
     prompt = build_prompt(question, context)
+    print(f"prompt {prompt}")
     return provider.generate(prompt, system_prompt)
 
 
